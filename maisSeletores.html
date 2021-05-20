@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais seletores</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background: green;
+            margin: 20px;
+        }/*
+        div:nth-child(2) {   div:nth-child , div:first-of-type ou div:last-of-type
+            background: black;*/
+        .amarelo {
+        background: yellow;
+        }
+        .vermelho{
+            background: red;
+        }
+        .preto{
+            background: black;
+        }
+        .bordada{ /*criar uma classe para reutilizar */
+            border: 3px solid black;
+        }
+        .amarelo.bordada{/*selecionar div especifica*/
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="amarelo bordada"></div>
+    <div class="vermelho"></div>
+    <div class="preto"></div>
+</body>
+</html>
