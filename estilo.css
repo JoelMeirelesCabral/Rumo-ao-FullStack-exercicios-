@@ -1,0 +1,17 @@
+body {
+    background-color: cornflowerblue;
+    
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-style:  solid;
+    font-weight: bold;
+}
+button{
+   background :rgb(6, 0, 95);
+   border-radius: 50px;
+   font-family: sans-serif;color: white;
+
+   
+}
